@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<robot name="006_mustard_bottle_box">
+  <link name="base_link">
+    <visual>
+      <geometry><mesh filename="../visual/006_mustard_bottle.obj"/></geometry>
+    </visual>
+    <collision>
+      <geometry><box size="0.097205 0.066603 0.191312"/></geometry>
+    </collision>
+    <inertial>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+</robot>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<robot name="077_rubiks_cube_box">
+  <link name="base_link">
+    <visual>
+      <geometry><mesh filename="../visual/077_rubiks_cube.obj"/></geometry>
+    </visual>
+    <collision>
+      <geometry><box size="0.075745 0.076117 0.057939"/></geometry>
+    </collision>
+    <inertial>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+</robot>

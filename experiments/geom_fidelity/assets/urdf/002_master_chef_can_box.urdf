@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<robot name="002_master_chef_can_box">
+  <link name="base_link">
+    <visual>
+      <geometry><mesh filename="../visual/002_master_chef_can.obj"/></geometry>
+    </visual>
+    <collision>
+      <geometry><box size="0.102391 0.102310 0.140164"/></geometry>
+    </collision>
+    <inertial>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+</robot>
